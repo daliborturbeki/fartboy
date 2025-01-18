@@ -10,20 +10,37 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
       <Row className="align-items-center">
-          <Col size={12}>
-            <h2 style={{color: 'white'}}>How to Buy Farts</h2>
+           <Col size={12}>
+            <h2 style={{color: 'white'}}>How to Buy FARTBOY Tokens</h2>
+            <br />
             <ol style={{color: 'white'}}>
               <li>
-                <strong>Access DexScreener:</strong>
-                <p>Visit <a href="https://dexscreener.com" style={{color: 'white'}}>dexscreener.com</a> through your browser or use the DexScreener app for easy access.</p>
+                <strong>Install and Set Up Phantom Wallet:</strong>
+                <p>If you haven't already, download the Phantom Wallet extension for your browser or install the mobile app.</p>
+                <p>Create a new wallet and securely back up your recovery phrase.</p>
               </li>
               <li>
-                <strong>Search contract address:</strong>
-                <p>Contact address is <b>y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump</b>. You can access it anytime via our website, X account, or join the Telegram group for quick updates.</p>
+                <strong>Fund Your Wallet with SOL:</strong>
+                <p>Acquire Solana's native token, SOL, through a reputable cryptocurrency exchange.</p>
+                <p>Transfer the purchased SOL to your Phantom Wallet by copying your wallet's public address and using it as the destination in your exchange's withdrawal process.</p> 
+                <p>Alternatively, you can purchase SOL directly within the Phantom Wallet using integrated services like MoonPay, Robinhood, or Coinbase Pay.</p>
               </li>
               <li>
-                <strong>Buy Farts:</strong>
-                <p>To make a purchase, select the amount you'd like to buy, adjust your slippage settings, and click the <i>Buy</i> button. When you're ready to sell, follow the same steps but choose the red <i>Sell</i> button before confirming. However, I recommend holding off on selling for now! 👀</p>
+                <strong>Access a Decentralized Exchange (DEX):</strong>
+                <p>Navigate to a Solana-compatible DEX such as Raydium.</p>
+                <p>Ensure your Phantom Wallet is connected to the DEX platform.</p>
+              </li>
+              <li>
+                <strong>Swap SOL for FARTBOY Tokens:</strong>
+                <p>On the DEX interface, select SOL as the token you want to swap.</p>
+                <p>Enter the official FARTBOY token address to ensure accuracy: <b>y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump</b>.</p>
+                <p>Specify the amount of SOL you wish to exchange for FARTBOY tokens.</p>
+                <p>Review the transaction details, including the exchange rate and any associated fees.</p>
+                <p>Confirm the swap to execute the transaction.</p>
+              </li>
+              <li>
+                <strong>Verify the Transaction:</strong>
+                <p>After the transaction is processed, check your Phantom Wallet to ensure the FARTBOY tokens have been successfully added to your balance.</p>
               </li>
             </ol>
           </Col>
