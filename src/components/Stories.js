@@ -22,46 +22,55 @@ export const Stories = () => {
       title: "The First Sniff",
       // description: "Design & Development",
       imgUrl: fartboy_1,
+      alt: "The First Sniff"
     },
     {
       title: "Ready, Aim, Fart!",
       // description: "Design & Development",
       imgUrl: fartboy_2,
+      alt: "Ready, Aim, Fart!"
     },
     {
       title: "Enter The Spewtank",
       // description: "Design & Development",
       imgUrl: fartboy_3,
+      alt: "Enter The Spewtank"
     },
     {
       title: "Let It Rip!",
       // description: "Design & Development",
       imgUrl: fartboy_4,
+      alt: "Let It Rip!"
     },
     {
       title: "Bottom Burp Battle",
       // description: "Design & Development",
       imgUrl: fartboy_5,
+      alt: "Bottom Burp Battle"
     },
     {
       title: "Booger Butt Boogie",
       // description: "Design & Development",
       imgUrl: fartboy_6,
+      alt: "Booger Butt Boogie"
     },
     {
       title: "Toenails of Terror",
       // description: "Design & Development",
       imgUrl: fartboy_7,
+      alt: "Toenails of Terror"
     },
     {
       title: "Bin Juice of Destiny",
       // description: "Design & Development",
       imgUrl: fartboy_8,
+      alt: "Bin Juice of Destiny"
     },
     {
       title: "Back to The Farture",
       // description: "Design & Development",
       imgUrl: fartboy_9,
+      alt: "Back to The Farture"
     },
   ];
 
