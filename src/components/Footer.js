@@ -21,7 +21,7 @@ export const Footer = () => {
               </li>
               <li>
                 <strong>Fund Your Wallet with SOL:</strong>
-                <p>Acquire Solana's native token, SOL, through a reputable cryptocurrency exchange or with your Phanton wallet using <i>Google Pay/Moonpay/Credit Card/Paypal/Transak</i>.</p>
+                <p>Acquire Solana's native token, SOL, through a reputable cryptocurrency exchange or with your Phantom wallet using <i>Google Pay/Moonpay/Credit Card/Paypal/Transak</i>.</p>
                 <p>Transfer the purchased SOL to your Phantom Wallet by copying your wallet's public address and using it as the destination in your exchange's withdrawal process.</p> 
                 <p>Alternatively, you can purchase SOL directly within the Phantom Wallet using integrated services like MoonPay, Robinhood, or Coinbase Pay.</p>
               </li>
