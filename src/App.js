@@ -7,10 +7,28 @@ import { Tokenomics } from "./components/Tokenomics";
 import { Stories } from "./components/Stories";
 import { Chart } from "./components/Chart";
 import { Footer } from "./components/Footer";
+import { Helmet } from 'react-helmet';
 
 function App() {
+  const jsonLdData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FartBoy",
+    "url": "https://www.fartboysol.com",
+    "description": "FartBoy coin to the moon",
+    "publisher": {
+      "@type": "Memecoin",
+      "name": "FartBoy"
+    }
+  };
+
   return (
     <div className="App">
+    <Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(jsonLdData)}
+      </script>
+    </Helmet>
       <NavBar />
       <Banner />
       <Tokenomics />
