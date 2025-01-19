@@ -15,7 +15,7 @@ function App() {
     "@type": "WebSite",
     "name": "FartBoy",
     "url": "https://www.fartboysol.com",
-    "description": "Fart Boy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character. ",
+    "description": "FartBoy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character. ",
     "publisher": {
       "@type": "Memecoin",
       "name": "FartBoy"
@@ -30,10 +30,15 @@ function App() {
         {JSON.stringify(jsonLdData)}
       </script>
       <meta property="og:title" content="FartBoy" />
-      <meta property="og:description" content="Fart Boy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character." />
+      <meta property="og:description" content="FartBoy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character." />
       <meta property="og:image" content="https://www.fartboysol.com/static/media/fartboy_2.6e1751091c05c4cff2bf.png" />
       <meta property="og:url" content="https://www.fartboysol.com" />
       <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="FartBoy" />
+      <meta name="twitter:description" content="FartBoy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character." />
+      <meta name="twitter:image" content="https://www.fartboysol.com/static/media/fartboy_2.6e1751091c05c4cff2bf.png" />
+      <meta name="twitter:image:alt" content="FartBoy" />
     </Helmet>
       <NavBar />
       <Banner />
