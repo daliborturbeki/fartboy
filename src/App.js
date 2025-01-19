@@ -15,11 +15,12 @@ function App() {
     "@type": "WebSite",
     "name": "FartBoy",
     "url": "https://www.fartboysol.com",
-    "description": "FartBoy coin to the moon",
+    "description": "Fart Boy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character. ",
     "publisher": {
       "@type": "Memecoin",
       "name": "FartBoy"
-    }
+    },
+    "image": "https://www.fartboysol.com/static/media/fartboy_2.6e1751091c05c4cff2bf.png"
   };
 
   return (
@@ -28,6 +29,11 @@ function App() {
       <script type="application/ld+json">
         {JSON.stringify(jsonLdData)}
       </script>
+      <meta property="og:title" content="FartBoy" />
+      <meta property="og:description" content="Fart Boy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character." />
+      <meta property="og:image" content="https://www.fartboysol.com/static/media/fartboy_2.6e1751091c05c4cff2bf.png" />
+      <meta property="og:url" content="https://www.fartboysol.com" />
+      <meta property="og:type" content="website" />
     </Helmet>
       <NavBar />
       <Banner />
