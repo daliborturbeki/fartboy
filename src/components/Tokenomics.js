@@ -36,7 +36,7 @@ export const Tokenomics = () => {
                         <h3 style={{color: 'lightgray'}}>CA - y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump</h3>
                         <br />
                         <h2>Tokenomics</h2>
-                        <p>Fart Boy is backed by an active and passionate community of fans and crypto enthusiasts, offering opportunities to engage in exclusive events, challenges, and creative collaborations.</p>
+                        <p>FartBoy is backed by an active and passionate community of fans and crypto enthusiasts, offering opportunities to engage in exclusive events, challenges, and creative collaborations.</p>
                         {/* hide buttons next and previous */}
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" showDots={false} arrows={false}>
                             <div className="item">

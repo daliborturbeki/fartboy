@@ -57,7 +57,10 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Fart me to the moon</span>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hi! I am FartBoy" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Fart Boy is a playful and community-focused cryptocurrency inspired by the hilarious and heroic spirit of the comic book character. Built on the Solana blockchain, Fart Boy represents the intersection of humor, innovation, and blockchain technology. Designed for collectors, meme enthusiasts, and fans of comics, Fart Boy introduces an ecosystem where laughter and creativity come together with real-world utility.</p>
+                  <p>From Comic Book Hero to Crypto Icon: Ride the Wind with Fartboy!</p>
+                  <p>Straight from the explosive pages of the beloved Fartboy comic book, this token is more than just fun—it’s a breath of fresh air in the crypto world. Backed by a passionate community of over 100,000 members, Fartboy is taking off faster than you can say “silent but deadly.”</p>
+                  <p>In just two days, we’ve gained 2,000+ followers and are already making waves with top exchanges for global listings. Our journey hasn’t been without challenges, but like our hero, we’ve proven unstoppable. The charts don’t lie—Fartboy has made an epic comeback!</p>
+                  <p>Now is your chance to grab hold of this wind-powered project on the Solana network. Don’t let this opportunity blow by—join the Fartboy movement today!</p>
                   <button onClick={() => window.open("https://dexscreener.com/solana/dhhvd5s4hqbgntkfztsk98wgptyujjpucqnnwanlwb4f?maker=BvsKaN2WZhFWjqErg8kpkGbsvGr2UeAo3QrTSiTZuTM6", "_blank")}>Let’s Fart <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
