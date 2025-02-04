@@ -51,7 +51,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="" /></a>
-                <a href="https://t.me/FARTBOYYCTO"><img src={navIcon1} alt="" /></a>
+                <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="" /></a>
               </div>
               {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Fart</span></button>
