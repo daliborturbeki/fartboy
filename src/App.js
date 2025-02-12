@@ -8,6 +8,7 @@ import { Chart } from "./components/Chart";
 import { Footer } from "./components/Footer";
 import { Helmet } from 'react-helmet';
 import { Analytics } from "@vercel/analytics/react"
+import { Game } from './components/Game';
 
 function App() {
   const jsonLdData = {
@@ -41,9 +42,10 @@ function App() {
         <meta name="twitter:image" content="https://www.fartboysol.com/static/media/fartboy_2.6e1751091c05c4cff2bf.png" />
         <meta name="twitter:image:alt" content="FartBoy" />
       </Helmet>
-      <Analytics/> 
+      <Analytics/>
       <NavBar />
       <Banner />
+      <Game />
       <Tokenomics />
       <Stories />
       <Chart />
