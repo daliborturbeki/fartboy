@@ -45,7 +45,7 @@ function App() {
       <Analytics/>
       <NavBar />
       <Banner />
-      <Game />
+      {/* <Game /> */}
       <Tokenomics />
       <Stories />
       <Chart />
