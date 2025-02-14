@@ -630,3 +630,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .game {
   padding: 20px;
 }
+
+.go-back-button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
