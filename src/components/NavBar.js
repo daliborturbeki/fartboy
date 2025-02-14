@@ -3,12 +3,14 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import { Link, useNavigate } from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
 
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 1224px)' });
 
   useEffect(() => {
     const onScroll = () => {
@@ -51,7 +53,9 @@ export const NavBar = () => {
               <Nav.Link as={Link} to="/" className={activeLink === 'stories' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('stories')}>Stories</Nav.Link>
               <Nav.Link as={Link} to="/" className={activeLink === 'chart' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('chart')}>Chart</Nav.Link>
               <Nav.Link as={Link} to="/" className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('footer')}>How to buy</Nav.Link>
-              <Nav.Link as={Link} to="/game" className={`${activeLink === 'game' ? 'active navbar-link' : 'navbar-link'} rainbow-text`} onClick={() => onUpdateActiveLink('game')}>Game</Nav.Link>
+              {isDesktopOrLaptop && (
+                <Nav.Link as={Link} to="/game" className={`${activeLink === 'game' ? 'active navbar-link' : 'navbar-link'} rainbow-text`} onClick={() => onUpdateActiveLink('game')}>Game</Nav.Link>
+              )}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
