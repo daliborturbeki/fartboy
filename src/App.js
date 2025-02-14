@@ -9,6 +9,8 @@ import { Footer } from "./components/Footer";
 import { Helmet } from 'react-helmet';
 import { Analytics } from "@vercel/analytics/react"
 import { Game } from './components/Game';
+import { Routes } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
   const jsonLdData = {
@@ -43,13 +45,19 @@ function App() {
         <meta name="twitter:image:alt" content="FartBoy" />
       </Helmet>
       <Analytics/>
-      <NavBar />
-      <Banner />
-      {/* <Game /> */}
-      <Tokenomics />
-      <Stories />
-      <Chart />
-      <Footer />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <NavBar />
+            <Banner />
+            <Tokenomics />
+            <Stories />
+            <Chart />
+            <Footer />
+          </>
+        } />
+        <Route path="/game" element={<Game />} />
+      </Routes>
     </div>
   );
 }
