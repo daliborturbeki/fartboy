@@ -628,8 +628,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .game {
-  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-  /* set light blue gradient */
-  background: linear-gradient(90.21deg, #b0e0e6 -5.91%, #4682b4 111.58%);
-  padding: 10px;
+  padding: 20px;
 }
