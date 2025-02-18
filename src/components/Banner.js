@@ -4,6 +4,7 @@ import fartboy from "../assets/img/fartboy_1on1.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Countdown } from "./Countdown";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -50,6 +51,7 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
+        <Countdown />
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
