@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import chartImg from "../assets/img/chart-img.svg";
+import { Container } from "react-bootstrap";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Chart = () => {
   const formInitialDetails = {
@@ -77,6 +76,7 @@ export const Chart = () => {
           </div>
         </div>
       </Container>
+      <img className="background-image-right-60" src={colorSharp2}></img>
     </section>
   )
 }

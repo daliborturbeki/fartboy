@@ -1,10 +1,5 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Tokenomics = () => {
@@ -33,7 +28,7 @@ export const Tokenomics = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h3 style={{color: 'lightgray'}}>CA - y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump</h3>
+                    <h3 className="tokenomics-address">CA - y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump</h3>
                         <br />
                         <h2>Tokenomics</h2>
                         <p>FartBoy is backed by an active and passionate community of fans and crypto enthusiasts, offering opportunities to engage in exclusive events, challenges, and creative collaborations.</p>

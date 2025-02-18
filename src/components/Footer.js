@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
+import colorSharp from "../assets/img/color-sharp.png"
 
 export const Footer = () => {
   return (
@@ -61,6 +61,7 @@ export const Footer = () => {
           </Col>
         </Row>
       </Container>
+      <img className="background-image-left-68" src={colorSharp} alt="Image" />
     </footer>
   )
 }

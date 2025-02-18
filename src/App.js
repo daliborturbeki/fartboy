@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { Game } from './components/Game';
 import { Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import StarsCanvas from './canvas/Stars';
 
 function App() {
   const jsonLdData = {
@@ -49,11 +50,14 @@ function App() {
         <Route path="/" element={
           <>
             <NavBar />
-            <Banner />
-            <Tokenomics />
-            <Stories />
-            <Chart />
-            <Footer />
+            <div className="stars-behind">
+              <Banner />
+              <Tokenomics />
+              <StarsCanvas />
+              <Stories />
+              <Chart />
+              <Footer />
+            </div>
           </>
         } />
         <Route path="/game" element={<Game />} />
