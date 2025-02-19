@@ -18,7 +18,7 @@ export const Game = () => {
         </div>
         )}
         <div className="iframe-container text-center">
-          <iframe frameborder="0" src="https://itch.io/embed-upload/12738277?color=121212" width="1280" height="740" allowfullscreen>
+          <iframe title="Fartboy game" frameborder="0" src="https://itch.io/embed-upload/12738277?color=121212" width="1280" height="740" allowfullscreen>
             <a href="https://scranstudios.itch.io/fartboy-flies-again">Play FartBoy Flies Again! on itch.io</a>
           </iframe>
         </div>
