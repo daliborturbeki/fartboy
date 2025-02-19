@@ -46,11 +46,11 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              {/* <Nav.Link as={Link} to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link as={Link} to="/" className={activeLink === 'tokenomics' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('tokenomics')}>Tokenomics</Nav.Link>
               <Nav.Link as={Link} to="/" className={activeLink === 'stories' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('stories')}>Stories</Nav.Link>
               <Nav.Link as={Link} to="/" className={activeLink === 'chart' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('chart')}>Chart</Nav.Link>
-              <Nav.Link as={Link} to="/" className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('footer')}>How to buy</Nav.Link>
+              <Nav.Link as={Link} to="/" className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleNavClick('footer')}>How to buy</Nav.Link> */}
               <Nav.Link as={Link} to="/game" className={`${activeLink === 'game' ? 'active navbar-link' : 'navbar-link'} rainbow-text`} onClick={() => onUpdateActiveLink('game')}>Game</Nav.Link>
             </Nav>
             <span className="navbar-text">
