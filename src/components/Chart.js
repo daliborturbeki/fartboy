@@ -4,7 +4,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Chart = () => {
   return (
-    <section className="chart" id="connect">
+    <section className="chart" id="chart">
       <Container>
         <div className="DexScreenerEmbed">
           <style>
