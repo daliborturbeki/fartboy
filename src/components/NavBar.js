@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon5 from '../assets/img/nav-icon5.svg';
 import { Link, useNavigate } from "react-router-dom";
 
 export const NavBar = () => {
@@ -57,6 +59,8 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="" /></a>
                 <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="" /></a>
+                <a href="discord.gg/coinskid"><img src={navIcon4} alt="" /></a>
+                <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="" /></a>
               </div>
               {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Fart</span></button>
