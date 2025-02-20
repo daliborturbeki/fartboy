@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon5 from '../assets/img/nav-icon5.svg';
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Footer = () => {
@@ -56,6 +58,8 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="" /></a>
+              <a href="discord.gg/coinskid"><img src={navIcon4} alt="" /></a>
+              <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="" /></a>
             </div>
             <p>Copyright 2025. All Rights Reserved</p>
           </Col>
