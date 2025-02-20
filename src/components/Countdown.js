@@ -5,11 +5,11 @@ const COUNTDOWN_TARGET = new Date(Date.UTC(2025, 1, 21, 14, 0, 0));
 
 const getTimeLeft = () => {
 	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-	const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
+	// const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
 	const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
 	const seconds = Math.floor((totalTimeLeft / 1000) % 60);
-	return { totalTimeLeft, days, hours, minutes, seconds };
+	return { totalTimeLeft, hours, minutes, seconds };
 };
 
 export const Countdown = () => {
@@ -31,7 +31,7 @@ export const Countdown = () => {
 
 	return (
 		<div className='countdown' id='countdown'>
-            <h2 className='text-center' style={{color: 'lightgray'}}>Upcoming CEX Listing In:</h2>
+            <h2 className='text-center' style={{color: 'lightgray'}}>Upcoming MEXC Listing In:</h2>
 			<div className='content'>
 				{Object.entries(timeLeft).map(([label, value]) => {
                     if (label === 'totalTimeLeft') return null;
