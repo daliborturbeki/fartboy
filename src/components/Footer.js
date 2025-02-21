@@ -59,7 +59,7 @@ export const Footer = () => {
               <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="X" /></a>
               <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="Telegram" /></a>
               <a href="discord.gg/coinskid"><img src={navIcon4} alt="Discord" /></a>
-              <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="MEXC" /></a>
+              <a href="https://promote.mexc.com/a/PshctDoI"><img src={navIcon5} alt="MEXC" /></a>
             </div>
             <p>Copyright 2025. All Rights Reserved</p>
           </Col>
