@@ -37,7 +37,7 @@ export const Chart = () => {
           </div>
         </div>
       </Container>
-      <img className="background-image-right-60" src={colorSharp2}></img>
+      <img className="background-image-right-60" src={colorSharp2} alt="blur"></img>
     </section>
   )
 }

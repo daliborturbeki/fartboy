@@ -57,10 +57,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="" /></a>
-                <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="" /></a>
-                <a href="discord.gg/coinskid"><img src={navIcon4} alt="" /></a>
-                <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="" /></a>
+                <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="X" /></a>
+                <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="Fartboy" /></a>
+                <a href="discord.gg/coinskid"><img src={navIcon4} alt="Discord" /></a>
+                <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="MEXC" /></a>
               </div>
               {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Fart</span></button>

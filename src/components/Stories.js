@@ -126,7 +126,7 @@ export const Stories = () => {
           </Row>
         </Container>
       </section>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="blur"></img>
     </>
   )
 }

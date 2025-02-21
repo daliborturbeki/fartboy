@@ -56,16 +56,16 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="" /></a>
-              <a href="discord.gg/coinskid"><img src={navIcon4} alt="" /></a>
-              <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="" /></a>
+              <a href="https://x.com/FARTBOY_CTO"><img src={navIcon2} alt="X" /></a>
+              <a href="https://t.me/iamfartboy"><img src={navIcon1} alt="Telegram" /></a>
+              <a href="discord.gg/coinskid"><img src={navIcon4} alt="Discord" /></a>
+              <a href="https://promote.mexc.com/r/kxNhCFTY"><img src={navIcon5} alt="MEXC" /></a>
             </div>
             <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left-68" src={colorSharp} alt="Image" />
+      <img className="background-image-left-68" src={colorSharp} alt="Blur" />
     </footer>
   )
 }
