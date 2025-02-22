@@ -23,17 +23,17 @@ export const Tokenomics = () => {
   };
 
   return (
-    <section className="skill" id="tokenomics">
+    <section className="tokenomics" id="tokenomics">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="tokenomics-bx wow zoomIn">
                     <h3 className="tokenomics-address">CA - y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump</h3>
                         <br />
                         <h2>Tokenomics</h2>
                         <p>FartBoy is backed by an active and passionate community of fans and crypto enthusiasts, offering opportunities to engage in exclusive events, challenges, and creative collaborations.</p>
                         {/* hide buttons next and previous */}
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" showDots={false} arrows={false}>
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme tokenomics-slider" showDots={false} arrows={false}>
                             <div className="item">
                                 {/* <img src={meter1} alt="Image" /> */}
                                 <h5>LIQUIDITY LOCKED</h5>
