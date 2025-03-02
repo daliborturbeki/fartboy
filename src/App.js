@@ -42,7 +42,7 @@ function App() {
                 <Tokenomics />
                 <StarsCanvas />
                 <Stories />
-                <Chart />
+                {/* <Chart /> */}
                 <Footer />
               </div>
             </>
